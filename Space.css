@@ -34,13 +34,15 @@
   stroke: var(--interactive-accent-rgb) !important;
 }
 
+.cm-strong,
 strong {
-  color: #3333ff;
+  color: #f2beff;
   font-weight: 700;
 }
 
+.cm-em,
 em {
-  color: #3333ff;
+  color: #f2beff;
 }
 
 mark,
