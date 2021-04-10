@@ -47,7 +47,8 @@ em {
 
 mark,
 .cm-highlight.cm-list-1,
-.cm-strong.cm-highlight
+.cm-strong.cm-highlight,
+.cm-highlight
 {
   background-color: var(--text-mark) !important;
   padding-top: 4px;
@@ -144,7 +145,7 @@ pre.language-swift .token.delimiter.variable {
   color: #ffffff;
 }
 pre.language-swift .token.comment {
-  color: #668f61;
+  color: #494b5a;
 }
 pre.language-swift .token.function {
   color: #d6882e;
@@ -197,8 +198,11 @@ pre.language-swift .token.type {
   color: #ffb86c;
 }
 
+.cm-s-obsidian  .HyperMD-codeblock.CodeMirror-line {
+  background: #17161d;
+}
 .cm-s-obsidian  .HyperMD-codeblock.CodeMirror-line  .cm-comment.cm-hmd-codeblock {
-  color: #668f61;
+  color: #494b5a;
 }
 .cm-s-obsidian  .HyperMD-codeblock.CodeMirror-line  .cm-function.cm-hmd-codeblock {
   color: #d6882e;
