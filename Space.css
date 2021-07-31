@@ -1,17 +1,19 @@
+/*Created by Evgeniy Kostin (2021)*/
+/*v1.0.1*/
 
 .theme-dark
 {
-  --background-primary: #313d42;
+  --background-primary: #1e1e1e;
   --background-primary-alt: #36393f;
   --background-secondary: #202225;
   --background-secondary-alt: #0f0f0f;
-  --text-normal: #dfdfe0;
+  --text-normal: #d8d8d8;
   --text-faint: #565a67;
   --text-title-h1: #F95959;
   --text-title-h2: #f07f6e;
   --text-title-h3: #cc3c8a;
   --text-title-h4: #f4a14d;
-  --text-title-h5: #FCE38A;
+  --text-title-h5: #ebebeb;
   --text-title-h6: #dfdfe0;
   --text-link: #3490DE;
   --text-a: #3490DE;
@@ -22,7 +24,7 @@
   --interactive-accent: #59b842;
   --interactive-before: #565a67;
   --background-modifier-border: #565a67;
-  --blockquote-border: #FCE38A;
+  --blockquote-border: #ebebeb;
   --text-accent: #A1EAFB;
   --interactive-accent-rgb: #fe8019;
   --font-family-editor: JetBrains Mono;
@@ -85,7 +87,7 @@ a:not(.internal-link) {
 blockquote 
 {
   border-color: var(--blockquote-border) !important;
-  background: #17161d;
+  background: #323232;
   padding: 6px;
 }
 
@@ -107,28 +109,28 @@ blockquote
 
 .markdown-preview-section {
   text-align: justify !important;
-  padding-left: 15% !important;
-  padding-right: 15% !important;
+  padding-left:  2% !important; 
+  padding-right: 2% !important; 
 }
 
 .CodeMirror.cm-s-obsidian {
   text-align: justify !important;
-  padding-left: 15% !important;
-  padding-right: 15% !important;
+  padding-left: 2% !important; 
+  padding-right: 2% !important; 
 }
 
 .cm-inline-code {
   padding: 6px;
   border: 1px solid var(--background-modifier-border);
   color: rgba(14, 210, 247, 0.9) !important;
-  background: #17161d;
+  background: #202225;
 }
 
 .markdown-preview-view code {
   padding: 6px;
   border: 1px solid var(--background-modifier-border);
   color: rgba(14, 210, 247, 0.9) !important;
-  background: #17161d;
+  background: #202225;
 }
 
 .theme-dark code[class*="language-"], .theme-dark pre[class*="language-"] {
@@ -138,7 +140,7 @@ blockquote
 
 .markdown-preview-view pre.language-swift {
   border: 1px solid var(--background-modifier-border);
-  background: #17161d;
+  background: #202225;
 }
 
 pre.language-swift .token.delimiter.variable {
@@ -164,7 +166,7 @@ pre.language-swift .token.variable-2 {
   color: #f4a14d;
 }
 pre.language-swift .token.def {
-  color: #50e6fa;
+  color: #589cce;
 }
 pre.language-swift .token.operator {
   color: #ffffff;
@@ -199,7 +201,7 @@ pre.language-swift .token.type {
 }
 
 .cm-s-obsidian  .HyperMD-codeblock.CodeMirror-line {
-  background: #17161d;
+  background: #202225;
 }
 .cm-s-obsidian  .HyperMD-codeblock.CodeMirror-line  .cm-comment.cm-hmd-codeblock {
   color: #494b5a;
@@ -212,7 +214,7 @@ pre.language-swift .token.type {
   color: #fa5d5d;
 }
 .cm-s-obsidian  .HyperMD-codeblock.CodeMirror-line  .cm-number.cm-hmd-codeblock {
-  color: #50e6fa;
+  color: #589cce;
 }
 .cm-s-obsidian  .HyperMD-codeblock.CodeMirror-line  .cm-variable.cm-hmd-codeblock {
   color: #d6882e;
@@ -221,7 +223,7 @@ pre.language-swift .token.type {
   color: #f4a14d;
 }
 .cm-s-obsidian  .HyperMD-codeblock.CodeMirror-line  .cm-def.cm-hmd-codeblock {
-  color: #50e6fa;
+  color: #589cce;
 }
 .cm-s-obsidian  .HyperMD-codeblock.CodeMirror-line  .cm-operator.cm-hmd-codeblock {
   color: #fcaf3b;
@@ -245,10 +247,10 @@ pre.language-swift .token.type {
   color: #50fa7b;
 }
 .cm-s-obsidian  .HyperMD-codeblock.CodeMirror-line  .cm-property.cm-hmd-codeblock {
-  color: #66d9ef;
+  color: #589cce;
 }
 .cm-s-obsidian  .HyperMD-codeblock.CodeMirror-line  .cm-builtin.cm-hmd-codeblock {
-  color: #50fafa;
+  color: #589cce;
 }
 .cm-s-obsidian  .HyperMD-codeblock.CodeMirror-line  .cm-variable-3.cm-hmd-codeblock,
 .cm-s-obsidian  .HyperMD-codeblock.CodeMirror-line  .cm-type.cm-hmd-codeblock {
