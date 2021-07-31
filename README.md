@@ -1,6 +1,10 @@
 # Name theme "Space"
 
-## Features:
+## Features (v1.0.1):
+
+1. Optimized for mobile devices
+
+## Features (v1.0.0):
 
 1. The text is located on width;
 2. Сontrast background for the editor and a preview;
